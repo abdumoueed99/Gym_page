@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 80vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+
+    width: 50%;
+    height: 50vh;
+}
+
+.topright {
+
+    width: 50%;
+    height: 50vh
+}
+
+.topright img {
+
+    width: 50%;
+    margin: 23px;
+    margin-left: 228px
+}
+
+.logo {
+    font-size: 1.7rem;
+}
+
+.dumble {
+    width: 110px;
+}
+
+.section1 {
+    max-height: 100vh;
+
+}
+
+.topright.gym {
+    width: 666px;
+}
+
+.section2 {
+    padding: 63px;
+}
+
+.box {
+    padding: 8px 0px;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid blueviolet;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.highlight {
+    font-size: 1.6rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 23px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: coral;
+}
+
+.section3 {
+    padding: 43px;
+}
+
+footer {
+    text-align: center;
+    padding: 23px;
+}
